@@ -74,7 +74,7 @@ class MainActivity : Activity() {
             start()
         }
         //val queue = Volley.newRequestQueue(this)
-        val url = "https://https://3e17-46-18-203-145.eu.ngrok.io/api/geo/add"
+        val url = "https://3e17-46-18-203-145.eu.ngrok.io/api/geo/add"
         println("volley")
         val jsonObjectRequest = JsonObjectRequest(Request.Method.POST, url, null,
             Response.Listener { response ->
